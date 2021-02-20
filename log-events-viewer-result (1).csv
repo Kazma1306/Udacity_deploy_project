@@ -1,0 +1,527 @@
+timestamp,message,logStreamName
+1613755371772,bash: cannot set terminal process group (-1): Inappropriate ioctl for device,AllTraffic/i-00d2d0f88c8b93063
+1613755371772,bash: no job control in this shell,AllTraffic/i-00d2d0f88c8b93063
+1613755371773,[2021-02-19 17:22:51 +0000] [20] [INFO] Starting gunicorn 19.9.0,AllTraffic/i-00d2d0f88c8b93063
+1613755371773,[2021-02-19 17:22:51 +0000] [20] [INFO] Listening at: unix:/tmp/gunicorn.sock (20),AllTraffic/i-00d2d0f88c8b93063
+1613755371773,[2021-02-19 17:22:51 +0000] [20] [INFO] Using worker: gevent,AllTraffic/i-00d2d0f88c8b93063
+1613755371773,[2021-02-19 17:22:51 +0000] [27] [INFO] Booting worker with pid: 27,AllTraffic/i-00d2d0f88c8b93063
+1613755371773,[2021-02-19 17:22:51 +0000] [31] [INFO] Booting worker with pid: 31,AllTraffic/i-00d2d0f88c8b93063
+1613755371774,[2021-02-19 17:22:51 +0000] [32] [INFO] Booting worker with pid: 32,AllTraffic/i-00d2d0f88c8b93063
+1613755371774,[2021-02-19 17:22:51 +0000] [33] [INFO] Booting worker with pid: 33,AllTraffic/i-00d2d0f88c8b93063
+1613755419798,Processing /opt/ml/code,AllTraffic/i-00d2d0f88c8b93063
+1613755420799,"Collecting pandas (from -r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/74/24/0cdbf8907e1e3bc5a8da03345c23cbed7044330bb8f73bb12e711a640a00/pandas-0.24.2-cp35-cp35m-manylinux1_x86_64.whl (10.0MB)",AllTraffic/i-00d2d0f88c8b93063
+1613755421799,Collecting numpy (from -r requirements.txt (line 2)),AllTraffic/i-00d2d0f88c8b93063
+1613755422800,  Downloading https://files.pythonhosted.org/packages/b5/36/88723426b4ff576809fec7d73594fe17a35c27f8d01f93637637a29ae25b/numpy-1.18.5-cp35-cp35m-manylinux1_x86_64.whl (19.9MB),AllTraffic/i-00d2d0f88c8b93063
+1613755423800,"Collecting nltk (from -r requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/92/75/ce35194d8e3022203cca0d2f896dbb88689f9b3fce8e9f9cff942913519d/nltk-3.5.zip (1.4MB)",AllTraffic/i-00d2d0f88c8b93063
+1613755423800,Processing /opt/ml/code,AllTraffic/i-00d2d0f88c8b93063
+1613755423800,"Collecting beautifulsoup4 (from -r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/d1/41/e6495bd7d3781cee623ce23ea6ac73282a373088fcd0ddc809a047b18eae/beautifulsoup4-4.9.3-py3-none-any.whl (115kB)",AllTraffic/i-00d2d0f88c8b93063
+1613755423801,"Collecting html5lib (from -r requirements.txt (line 5))
+  Downloading https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl (112kB)",AllTraffic/i-00d2d0f88c8b93063
+1613755424801,Collecting pytz>=2011k (from pandas->-r requirements.txt (line 1)),AllTraffic/i-00d2d0f88c8b93063
+1613755424801,"Collecting pandas (from -r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/70/94/784178ca5dd892a98f113cdd923372024dc04b8d40abe77ca76b5fb90ca6/pytz-2021.1-py2.py3-none-any.whl (510kB)",AllTraffic/i-00d2d0f88c8b93063
+1613755424801,"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)",AllTraffic/i-00d2d0f88c8b93063
+1613755424801,"Requirement already satisfied, skipping upgrade: click in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (7.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755424801,"Collecting joblib (from nltk->-r requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl (294kB)",AllTraffic/i-00d2d0f88c8b93063
+1613755424801,"Collecting regex (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/74/24/0cdbf8907e1e3bc5a8da03345c23cbed7044330bb8f73bb12e711a640a00/pandas-0.24.2-cp35-cp35m-manylinux1_x86_64.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755425802,  Downloading https://files.pythonhosted.org/packages/2e/e4/3447fed9ab29944333f48730ecff4dca92f0868c5b188d6ab2b2078e32c2/regex-2020.11.13.tar.gz (694kB),AllTraffic/i-00d2d0f88c8b93063
+1613755425802,Collecting numpy (from -r requirements.txt (line 2)),AllTraffic/i-00d2d0f88c8b93063
+1613755425802,"Collecting tqdm (from nltk->-r requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/d9/13/f3f815bb73804a8af9cfbb6f084821c037109108885f46131045e8cf044e/tqdm-4.57.0-py2.py3-none-any.whl (72kB)",AllTraffic/i-00d2d0f88c8b93063
+1613755425802,"Collecting soupsieve>1.2; python_version >= ""3.0"" (from beautifulsoup4->-r requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/02/fb/1c65691a9aeb7bd6ac2aa505b84cb8b49ac29c976411c6ab3659425e045f/soupsieve-2.1-py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755426803,"Collecting webencodings (from html5lib->-r requirements.txt (line 5))
+  Downloading https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755426803,"Requirement already satisfied, skipping upgrade: six>=1.9 in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (1.11.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755426803,"Building wheels for collected packages: nltk, predict, regex
+  Running setup.py bdist_wheel for nltk: started
+  Using cached https://files.pythonhosted.org/packages/b5/36/88723426b4ff576809fec7d73594fe17a35c27f8d01f93637637a29ae25b/numpy-1.18.5-cp35-cp35m-manylinux1_x86_64.whl
+  Running setup.py bdist_wheel for nltk: finished with status 'done'",AllTraffic/i-00d2d0f88c8b93063
+1613755427804,  Stored in directory: /root/.cache/pip/wheels/ae/8c/3f/b1fe0ba04555b08b57ab52ab7f86023639a526d8bc8d384306,AllTraffic/i-00d2d0f88c8b93063
+1613755427804,"Collecting nltk (from -r requirements.txt (line 3))
+  Running setup.py bdist_wheel for predict: started",AllTraffic/i-00d2d0f88c8b93063
+1613755427804,"Collecting beautifulsoup4 (from -r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/d1/41/e6495bd7d3781cee623ce23ea6ac73282a373088fcd0ddc809a047b18eae/beautifulsoup4-4.9.3-py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755427804,"Collecting html5lib (from -r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755427804,"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)",AllTraffic/i-00d2d0f88c8b93063
+1613755427804,"Collecting pytz>=2011k (from pandas->-r requirements.txt (line 1))
+  Running setup.py bdist_wheel for predict: finished with status 'done'
+  Stored in directory: /tmp/pip-ephem-wheel-cache-5r2y8eb_/wheels/35/24/16/37574d11bf9bde50616c67372a334f94fa8356bc7164af8ca3
+  Running setup.py bdist_wheel for regex: started
+  Using cached https://files.pythonhosted.org/packages/70/94/784178ca5dd892a98f113cdd923372024dc04b8d40abe77ca76b5fb90ca6/pytz-2021.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755427804,"Collecting tqdm (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/d9/13/f3f815bb73804a8af9cfbb6f084821c037109108885f46131045e8cf044e/tqdm-4.57.0-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755427804,"Requirement already satisfied, skipping upgrade: click in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (7.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755427805,Collecting regex (from nltk->-r requirements.txt (line 3)),AllTraffic/i-00d2d0f88c8b93063
+1613755428805,  Using cached https://files.pythonhosted.org/packages/2e/e4/3447fed9ab29944333f48730ecff4dca92f0868c5b188d6ab2b2078e32c2/regex-2020.11.13.tar.gz,AllTraffic/i-00d2d0f88c8b93063
+1613755428805,"Collecting joblib (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755428805,"Collecting soupsieve>1.2; python_version >= ""3.0"" (from beautifulsoup4->-r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/02/fb/1c65691a9aeb7bd6ac2aa505b84cb8b49ac29c976411c6ab3659425e045f/soupsieve-2.1-py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755428806,"Collecting webencodings (from html5lib->-r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755428806,"Requirement already satisfied, skipping upgrade: six>=1.9 in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (1.11.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755428806,"Building wheels for collected packages: predict, regex
+  Running setup.py bdist_wheel for predict: started",AllTraffic/i-00d2d0f88c8b93063
+1613755428806,Processing /opt/ml/code,AllTraffic/i-00d2d0f88c8b93063
+1613755429807,"Collecting pandas (from -r requirements.txt (line 1))
+  Running setup.py bdist_wheel for predict: finished with status 'done'
+  Stored in directory: /tmp/pip-ephem-wheel-cache-asoraiyv/wheels/35/24/16/37574d11bf9bde50616c67372a334f94fa8356bc7164af8ca3
+  Running setup.py bdist_wheel for regex: started
+  Using cached https://files.pythonhosted.org/packages/74/24/0cdbf8907e1e3bc5a8da03345c23cbed7044330bb8f73bb12e711a640a00/pandas-0.24.2-cp35-cp35m-manylinux1_x86_64.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755431807,Collecting numpy (from -r requirements.txt (line 2)),AllTraffic/i-00d2d0f88c8b93063
+1613755432808,  Using cached https://files.pythonhosted.org/packages/b5/36/88723426b4ff576809fec7d73594fe17a35c27f8d01f93637637a29ae25b/numpy-1.18.5-cp35-cp35m-manylinux1_x86_64.whl,AllTraffic/i-00d2d0f88c8b93063
+1613755433809,Collecting nltk (from -r requirements.txt (line 3)),AllTraffic/i-00d2d0f88c8b93063
+1613755433809,"Collecting beautifulsoup4 (from -r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/d1/41/e6495bd7d3781cee623ce23ea6ac73282a373088fcd0ddc809a047b18eae/beautifulsoup4-4.9.3-py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755433810,"Collecting html5lib (from -r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755433810,Collecting pytz>=2011k (from pandas->-r requirements.txt (line 1)),AllTraffic/i-00d2d0f88c8b93063
+1613755434826,"Processing /opt/ml/code
+  Using cached https://files.pythonhosted.org/packages/70/94/784178ca5dd892a98f113cdd923372024dc04b8d40abe77ca76b5fb90ca6/pytz-2021.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755434826,"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)",AllTraffic/i-00d2d0f88c8b93063
+1613755434826,"Collecting joblib (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755434860,Collecting pandas (from -r requirements.txt (line 1)),AllTraffic/i-00d2d0f88c8b93063
+1613755434860,"Collecting tqdm (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/d9/13/f3f815bb73804a8af9cfbb6f084821c037109108885f46131045e8cf044e/tqdm-4.57.0-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755434860,Collecting regex (from nltk->-r requirements.txt (line 3)),AllTraffic/i-00d2d0f88c8b93063
+1613755435863,  Using cached https://files.pythonhosted.org/packages/74/24/0cdbf8907e1e3bc5a8da03345c23cbed7044330bb8f73bb12e711a640a00/pandas-0.24.2-cp35-cp35m-manylinux1_x86_64.whl,AllTraffic/i-00d2d0f88c8b93063
+1613755436865,  Using cached https://files.pythonhosted.org/packages/2e/e4/3447fed9ab29944333f48730ecff4dca92f0868c5b188d6ab2b2078e32c2/regex-2020.11.13.tar.gz,AllTraffic/i-00d2d0f88c8b93063
+1613755436865,"Requirement already satisfied, skipping upgrade: click in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (7.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755436865,Collecting numpy (from -r requirements.txt (line 2)),AllTraffic/i-00d2d0f88c8b93063
+1613755436865,"Collecting soupsieve>1.2; python_version >= ""3.0"" (from beautifulsoup4->-r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/02/fb/1c65691a9aeb7bd6ac2aa505b84cb8b49ac29c976411c6ab3659425e045f/soupsieve-2.1-py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755437867,"Collecting webencodings (from html5lib->-r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755437867,"Requirement already satisfied, skipping upgrade: six>=1.9 in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (1.11.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755437867,"Building wheels for collected packages: predict, regex
+  Running setup.py bdist_wheel for predict: started
+  Running setup.py bdist_wheel for predict: finished with status 'done'
+  Stored in directory: /tmp/pip-ephem-wheel-cache-5_36o74m/wheels/35/24/16/37574d11bf9bde50616c67372a334f94fa8356bc7164af8ca3
+  Running setup.py bdist_wheel for regex: started
+  Using cached https://files.pythonhosted.org/packages/b5/36/88723426b4ff576809fec7d73594fe17a35c27f8d01f93637637a29ae25b/numpy-1.18.5-cp35-cp35m-manylinux1_x86_64.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755439874,Processing /opt/ml/code,AllTraffic/i-00d2d0f88c8b93063
+1613755439874,Collecting nltk (from -r requirements.txt (line 3)),AllTraffic/i-00d2d0f88c8b93063
+1613755439907,"Collecting beautifulsoup4 (from -r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/d1/41/e6495bd7d3781cee623ce23ea6ac73282a373088fcd0ddc809a047b18eae/beautifulsoup4-4.9.3-py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755439907,"Collecting html5lib (from -r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755439907,Collecting pandas (from -r requirements.txt (line 1)),AllTraffic/i-00d2d0f88c8b93063
+1613755440911,"Collecting pytz>=2011k (from pandas->-r requirements.txt (line 1))
+  Using cached https://files.pythonhosted.org/packages/70/94/784178ca5dd892a98f113cdd923372024dc04b8d40abe77ca76b5fb90ca6/pytz-2021.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755440911,"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)",AllTraffic/i-00d2d0f88c8b93063
+1613755440911,"Collecting tqdm (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/74/24/0cdbf8907e1e3bc5a8da03345c23cbed7044330bb8f73bb12e711a640a00/pandas-0.24.2-cp35-cp35m-manylinux1_x86_64.whl
+  Using cached https://files.pythonhosted.org/packages/d9/13/f3f815bb73804a8af9cfbb6f084821c037109108885f46131045e8cf044e/tqdm-4.57.0-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755441930,Collecting regex (from nltk->-r requirements.txt (line 3)),AllTraffic/i-00d2d0f88c8b93063
+1613755442945,"  Using cached https://files.pythonhosted.org/packages/2e/e4/3447fed9ab29944333f48730ecff4dca92f0868c5b188d6ab2b2078e32c2/regex-2020.11.13.tar.gz
+  Running setup.py bdist_wheel for regex: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/27/f6/66/a4243e485a0ebc73dc59033ae26c48e82526f77dbfe158ac59",AllTraffic/i-00d2d0f88c8b93063
+1613755443959,Successfully built nltk predict regex,AllTraffic/i-00d2d0f88c8b93063
+1613755443959,"Collecting joblib (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755443959,Collecting numpy (from -r requirements.txt (line 2)),AllTraffic/i-00d2d0f88c8b93063
+1613755443959,"Requirement already satisfied, skipping upgrade: click in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (7.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755443959,"Collecting soupsieve>1.2; python_version >= ""3.0"" (from beautifulsoup4->-r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/02/fb/1c65691a9aeb7bd6ac2aa505b84cb8b49ac29c976411c6ab3659425e045f/soupsieve-2.1-py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755443959,"Requirement already satisfied, skipping upgrade: six>=1.9 in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (1.11.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755443959,Collecting webencodings (from html5lib->-r requirements.txt (line 5)),AllTraffic/i-00d2d0f88c8b93063
+1613755443959,"Installing collected packages: pytz, numpy, pandas, joblib, regex, tqdm, nltk, soupsieve, beautifulsoup4, webencodings, html5lib, predict
+  Using cached https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755443959,"Building wheels for collected packages: predict, regex
+  Running setup.py bdist_wheel for predict: started",AllTraffic/i-00d2d0f88c8b93063
+1613755444963,  Found existing installation: numpy 1.15.4,AllTraffic/i-00d2d0f88c8b93063
+1613755444963,"Processing /opt/ml/code
+    Uninstalling numpy-1.15.4:
+  Running setup.py bdist_wheel for predict: finished with status 'done'
+  Stored in directory: /tmp/pip-ephem-wheel-cache-42t9xf87/wheels/35/24/16/37574d11bf9bde50616c67372a334f94fa8356bc7164af8ca3
+  Running setup.py bdist_wheel for regex: started
+  Using cached https://files.pythonhosted.org/packages/b5/36/88723426b4ff576809fec7d73594fe17a35c27f8d01f93637637a29ae25b/numpy-1.18.5-cp35-cp35m-manylinux1_x86_64.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755445967,"Collecting pandas (from -r requirements.txt (line 1))
+      Successfully uninstalled numpy-1.15.4",AllTraffic/i-00d2d0f88c8b93063
+1613755445967,Collecting nltk (from -r requirements.txt (line 3)),AllTraffic/i-00d2d0f88c8b93063
+1613755447059,  Using cached https://files.pythonhosted.org/packages/74/24/0cdbf8907e1e3bc5a8da03345c23cbed7044330bb8f73bb12e711a640a00/pandas-0.24.2-cp35-cp35m-manylinux1_x86_64.whl,AllTraffic/i-00d2d0f88c8b93063
+1613755447059,"Collecting beautifulsoup4 (from -r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/d1/41/e6495bd7d3781cee623ce23ea6ac73282a373088fcd0ddc809a047b18eae/beautifulsoup4-4.9.3-py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755447059,"Collecting html5lib (from -r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755447059,"Requirement already satisfied, skipping upgrade: pytz>=2011k in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2021.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755447059,"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)",AllTraffic/i-00d2d0f88c8b93063
+1613755447059,"Collecting joblib (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755447059,Collecting regex (from nltk->-r requirements.txt (line 3)),AllTraffic/i-00d2d0f88c8b93063
+1613755448063,"  Running setup.py bdist_wheel for regex: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/27/f6/66/a4243e485a0ebc73dc59033ae26c48e82526f77dbfe158ac59",AllTraffic/i-00d2d0f88c8b93063
+1613755448063,Successfully built predict regex,AllTraffic/i-00d2d0f88c8b93063
+1613755448063,"Could not install packages due to an EnvironmentError: [Errno 2] No such file or directory: '/usr/local/lib/python3.5/dist-packages/numpy-1.15.4.dist-info/METADATA'
+",AllTraffic/i-00d2d0f88c8b93063
+1613755449067,"You are using pip version 18.1, however version 20.3.4 is available.",AllTraffic/i-00d2d0f88c8b93063
+1613755449067,You should consider upgrading via the 'pip install --upgrade pip' command.,AllTraffic/i-00d2d0f88c8b93063
+1613755449067,[2021-02-19 17:24:08 +0000] [33] [ERROR] Error handling request /ping,AllTraffic/i-00d2d0f88c8b93063
+1613755449067,"Traceback (most recent call last):
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/base_async.py"", line 56, in handle
+    self.handle_request(listener_name, req, client, addr)
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/ggevent.py"", line 160, in handle_request
+    addr)
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/base_async.py"", line 107, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_pytorch_container/serving.py"", line 103, in main
+    user_module = modules.import_module(serving_env.module_dir, serving_env.module_name)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_modules.py"", line 246, in import_module
+    install(_env.code_dir)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_modules.py"", line 109, in install
+    _process.check_error(shlex.split(cmd), _errors.InstallModuleError, cwd=path, capture_error=capture_error)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_process.py"", line 43, in check_error
+    raise error_class(return_code=return_code, cmd=' '.join(cmd), output=stderr)",AllTraffic/i-00d2d0f88c8b93063
+1613755449067,sagemaker_containers._errors.InstallModuleError: InstallModuleError:,AllTraffic/i-00d2d0f88c8b93063
+1613755449067,"Command ""/usr/bin/python -m pip install -U . -r requirements.txt""",AllTraffic/i-00d2d0f88c8b93063
+1613755449067,"10.32.0.2 - - [19/Feb/2021:17:24:08 +0000] ""GET /ping HTTP/1.1"" 500 141 ""-"" ""AHC/2.0""",AllTraffic/i-00d2d0f88c8b93063
+1613755449067,Collecting tqdm (from nltk->-r requirements.txt (line 3)),AllTraffic/i-00d2d0f88c8b93063
+1613755449068,"Collecting numpy (from -r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/d9/13/f3f815bb73804a8af9cfbb6f084821c037109108885f46131045e8cf044e/tqdm-4.57.0-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755449068,"Requirement already satisfied, skipping upgrade: click in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (7.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755449068,"Collecting soupsieve>1.2; python_version >= ""3.0"" (from beautifulsoup4->-r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/02/fb/1c65691a9aeb7bd6ac2aa505b84cb8b49ac29c976411c6ab3659425e045f/soupsieve-2.1-py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755449068,"Requirement already satisfied, skipping upgrade: six>=1.9 in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (1.11.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755449068,"Collecting webencodings (from html5lib->-r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755449068,"Building wheels for collected packages: predict
+  Running setup.py bdist_wheel for predict: started",AllTraffic/i-00d2d0f88c8b93063
+1613755450071,"Processing /opt/ml/code
+  Running setup.py bdist_wheel for predict: finished with status 'done'
+  Stored in directory: /tmp/pip-ephem-wheel-cache-9ntndrnb/wheels/35/24/16/37574d11bf9bde50616c67372a334f94fa8356bc7164af8ca3",AllTraffic/i-00d2d0f88c8b93063
+1613755450071,"Successfully built predict
+  Using cached https://files.pythonhosted.org/packages/b5/36/88723426b4ff576809fec7d73594fe17a35c27f8d01f93637637a29ae25b/numpy-1.18.5-cp35-cp35m-manylinux1_x86_64.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755450071,"Could not install packages due to an EnvironmentError: [Errno 2] No such file or directory: '/usr/local/lib/python3.5/dist-packages/numpy-1.15.4.dist-info/METADATA'
+",AllTraffic/i-00d2d0f88c8b93063
+1613755451339,Collecting pandas (from -r requirements.txt (line 1)),AllTraffic/i-00d2d0f88c8b93063
+1613755451339,"You are using pip version 18.1, however version 20.3.4 is available.",AllTraffic/i-00d2d0f88c8b93063
+1613755451339,You should consider upgrading via the 'pip install --upgrade pip' command.,AllTraffic/i-00d2d0f88c8b93063
+1613755451339,[2021-02-19 17:24:10 +0000] [31] [ERROR] Error handling request /ping,AllTraffic/i-00d2d0f88c8b93063
+1613755451339,"Traceback (most recent call last):
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/base_async.py"", line 56, in handle
+    self.handle_request(listener_name, req, client, addr)
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/ggevent.py"", line 160, in handle_request
+    addr)
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/base_async.py"", line 107, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_pytorch_container/serving.py"", line 103, in main
+    user_module = modules.import_module(serving_env.module_dir, serving_env.module_name)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_modules.py"", line 246, in import_module
+    install(_env.code_dir)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_modules.py"", line 109, in install
+    _process.check_error(shlex.split(cmd), _errors.InstallModuleError, cwd=path, capture_error=capture_error)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_process.py"", line 43, in check_error
+    raise error_class(return_code=return_code, cmd=' '.join(cmd), output=stderr)",AllTraffic/i-00d2d0f88c8b93063
+1613755451339,sagemaker_containers._errors.InstallModuleError: InstallModuleError:,AllTraffic/i-00d2d0f88c8b93063
+1613755451339,"Command ""/usr/bin/python -m pip install -U . -r requirements.txt""",AllTraffic/i-00d2d0f88c8b93063
+1613755451340,"10.32.0.2 - - [19/Feb/2021:17:24:10 +0000] ""GET /ping HTTP/1.1"" 500 141 ""-"" ""AHC/2.0""
+  Using cached https://files.pythonhosted.org/packages/74/24/0cdbf8907e1e3bc5a8da03345c23cbed7044330bb8f73bb12e711a640a00/pandas-0.24.2-cp35-cp35m-manylinux1_x86_64.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755451340,Collecting nltk (from -r requirements.txt (line 3)),AllTraffic/i-00d2d0f88c8b93063
+1613755452343,"Collecting beautifulsoup4 (from -r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/d1/41/e6495bd7d3781cee623ce23ea6ac73282a373088fcd0ddc809a047b18eae/beautifulsoup4-4.9.3-py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755452343,"Collecting html5lib (from -r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755452343,"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)",AllTraffic/i-00d2d0f88c8b93063
+1613755452343,"Requirement already satisfied, skipping upgrade: pytz>=2011k in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2021.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755452343,Collecting regex (from nltk->-r requirements.txt (line 3)),AllTraffic/i-00d2d0f88c8b93063
+1613755453350,Requirement already up-to-date: numpy in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 2)) (1.18.5),AllTraffic/i-00d2d0f88c8b93063
+1613755453351,Collecting nltk (from -r requirements.txt (line 3)),AllTraffic/i-00d2d0f88c8b93063
+1613755454356,"Collecting beautifulsoup4 (from -r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/d1/41/e6495bd7d3781cee623ce23ea6ac73282a373088fcd0ddc809a047b18eae/beautifulsoup4-4.9.3-py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755454356,"Requirement already satisfied, skipping upgrade: click in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (7.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755454357,Collecting html5lib (from -r requirements.txt (line 5)),AllTraffic/i-00d2d0f88c8b93063
+1613755454357,"Collecting tqdm (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755454357,"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)",AllTraffic/i-00d2d0f88c8b93063
+1613755454357,"Requirement already satisfied, skipping upgrade: pytz>=2011k in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2021.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755454357,"Requirement already satisfied, skipping upgrade: click in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (7.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755454357,"Collecting regex (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/d9/13/f3f815bb73804a8af9cfbb6f084821c037109108885f46131045e8cf044e/tqdm-4.57.0-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755454357,"Collecting joblib (from nltk->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755455359,Processing /opt/ml/code,AllTraffic/i-00d2d0f88c8b93063
+1613755455359,"Collecting soupsieve>1.2; python_version >= ""3.0"" (from beautifulsoup4->-r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/02/fb/1c65691a9aeb7bd6ac2aa505b84cb8b49ac29c976411c6ab3659425e045f/soupsieve-2.1-py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755455359,"Collecting webencodings (from html5lib->-r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755455359,"Requirement already satisfied, skipping upgrade: six>=1.9 in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (1.11.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755455359,"Building wheels for collected packages: predict
+  Running setup.py bdist_wheel for predict: started",AllTraffic/i-00d2d0f88c8b93063
+1613755456371,"Collecting pandas (from -r requirements.txt (line 1))
+  Running setup.py bdist_wheel for predict: finished with status 'done'
+  Stored in directory: /tmp/pip-ephem-wheel-cache-oy89z5pv/wheels/35/24/16/37574d11bf9bde50616c67372a334f94fa8356bc7164af8ca3",AllTraffic/i-00d2d0f88c8b93063
+1613755456371,Successfully built predict,AllTraffic/i-00d2d0f88c8b93063
+1613755456371,"Could not install packages due to an EnvironmentError: [Errno 2] No such file or directory: '/usr/local/lib/python3.5/dist-packages/numpy-1.15.4.dist-info/METADATA'
+",AllTraffic/i-00d2d0f88c8b93063
+1613755456371,Collecting joblib (from nltk->-r requirements.txt (line 3)),AllTraffic/i-00d2d0f88c8b93063
+1613755456371,"You are using pip version 18.1, however version 20.3.4 is available.",AllTraffic/i-00d2d0f88c8b93063
+1613755456371,"You should consider upgrading via the 'pip install --upgrade pip' command.
+  Using cached https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755456371,Collecting tqdm (from nltk->-r requirements.txt (line 3)),AllTraffic/i-00d2d0f88c8b93063
+1613755456371,[2021-02-19 17:24:16 +0000] [31] [ERROR] Error handling request /ping,AllTraffic/i-00d2d0f88c8b93063
+1613755456371,"Traceback (most recent call last):
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/base_async.py"", line 56, in handle
+    self.handle_request(listener_name, req, client, addr)
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/ggevent.py"", line 160, in handle_request
+    addr)
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/base_async.py"", line 107, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_pytorch_container/serving.py"", line 103, in main
+    user_module = modules.import_module(serving_env.module_dir, serving_env.module_name)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_modules.py"", line 246, in import_module
+    install(_env.code_dir)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_modules.py"", line 109, in install
+    _process.check_error(shlex.split(cmd), _errors.InstallModuleError, cwd=path, capture_error=capture_error)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_process.py"", line 43, in check_error
+    raise error_class(return_code=return_code, cmd=' '.join(cmd), output=stderr)",AllTraffic/i-00d2d0f88c8b93063
+1613755456371,sagemaker_containers._errors.InstallModuleError: InstallModuleError:,AllTraffic/i-00d2d0f88c8b93063
+1613755456371,"Command ""/usr/bin/python -m pip install -U . -r requirements.txt""",AllTraffic/i-00d2d0f88c8b93063
+1613755456372,"10.32.0.2 - - [19/Feb/2021:17:24:16 +0000] ""GET /ping HTTP/1.1"" 500 141 ""-"" ""AHC/2.0""",AllTraffic/i-00d2d0f88c8b93063
+1613755457375,"  Using cached https://files.pythonhosted.org/packages/d9/13/f3f815bb73804a8af9cfbb6f084821c037109108885f46131045e8cf044e/tqdm-4.57.0-py2.py3-none-any.whl
+  Using cached https://files.pythonhosted.org/packages/74/24/0cdbf8907e1e3bc5a8da03345c23cbed7044330bb8f73bb12e711a640a00/pandas-0.24.2-cp35-cp35m-manylinux1_x86_64.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755457375,"Collecting soupsieve>1.2; python_version >= ""3.0"" (from beautifulsoup4->-r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/02/fb/1c65691a9aeb7bd6ac2aa505b84cb8b49ac29c976411c6ab3659425e045f/soupsieve-2.1-py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755457375,"Collecting webencodings (from html5lib->-r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755457375,"Requirement already satisfied, skipping upgrade: six>=1.9 in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (1.11.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755457375,"Building wheels for collected packages: predict
+  Running setup.py bdist_wheel for predict: started",AllTraffic/i-00d2d0f88c8b93063
+1613755458379,"  Running setup.py bdist_wheel for predict: finished with status 'done'
+  Stored in directory: /tmp/pip-ephem-wheel-cache-stuk_3wb/wheels/35/24/16/37574d11bf9bde50616c67372a334f94fa8356bc7164af8ca3",AllTraffic/i-00d2d0f88c8b93063
+1613755458379,"Successfully built predict
+  Running setup.py bdist_wheel for regex: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/27/f6/66/a4243e485a0ebc73dc59033ae26c48e82526f77dbfe158ac59",AllTraffic/i-00d2d0f88c8b93063
+1613755458399,Successfully built predict regex,AllTraffic/i-00d2d0f88c8b93063
+1613755458400,"Could not install packages due to an EnvironmentError: [Errno 2] No such file or directory: '/usr/local/lib/python3.5/dist-packages/numpy-1.15.4.dist-info/METADATA'
+",AllTraffic/i-00d2d0f88c8b93063
+1613755458400,"You are using pip version 18.1, however version 20.3.4 is available.",AllTraffic/i-00d2d0f88c8b93063
+1613755458400,You should consider upgrading via the 'pip install --upgrade pip' command.,AllTraffic/i-00d2d0f88c8b93063
+1613755458400,"Installing collected packages: pandas, regex, joblib, tqdm, nltk, soupsieve, beautifulsoup4, webencodings, html5lib, predict",AllTraffic/i-00d2d0f88c8b93063
+1613755459407,[2021-02-19 17:24:18 +0000] [31] [ERROR] Error handling request /ping,AllTraffic/i-00d2d0f88c8b93063
+1613755459426,"Traceback (most recent call last):
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/base_async.py"", line 56, in handle
+    self.handle_request(listener_name, req, client, addr)
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/ggevent.py"", line 160, in handle_request
+    addr)
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/base_async.py"", line 107, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_pytorch_container/serving.py"", line 103, in main
+    user_module = modules.import_module(serving_env.module_dir, serving_env.module_name)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_modules.py"", line 246, in import_module
+    install(_env.code_dir)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_modules.py"", line 109, in install
+    _process.check_error(shlex.split(cmd), _errors.InstallModuleError, cwd=path, capture_error=capture_error)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_process.py"", line 43, in check_error
+    raise error_class(return_code=return_code, cmd=' '.join(cmd), output=stderr)",AllTraffic/i-00d2d0f88c8b93063
+1613755459426,sagemaker_containers._errors.InstallModuleError: InstallModuleError:,AllTraffic/i-00d2d0f88c8b93063
+1613755459426,"Command ""/usr/bin/python -m pip install -U . -r requirements.txt""",AllTraffic/i-00d2d0f88c8b93063
+1613755459426,"10.32.0.2 - - [19/Feb/2021:17:24:18 +0000] ""GET /ping HTTP/1.1"" 500 141 ""-"" ""AHC/2.0""",AllTraffic/i-00d2d0f88c8b93063
+1613755459494,Requirement already up-to-date: numpy in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 2)) (1.18.5),AllTraffic/i-00d2d0f88c8b93063
+1613755459495,Collecting nltk (from -r requirements.txt (line 3)),AllTraffic/i-00d2d0f88c8b93063
+1613755459495,Processing /opt/ml/code,AllTraffic/i-00d2d0f88c8b93063
+1613755459495,"Collecting beautifulsoup4 (from -r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/d1/41/e6495bd7d3781cee623ce23ea6ac73282a373088fcd0ddc809a047b18eae/beautifulsoup4-4.9.3-py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755459495,"Collecting html5lib (from -r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/6c/dd/a834df6482147d48e225a49515aabc28974ad5a4ca3215c18a882565b028/html5lib-1.1-py2.py3-none-any.whl",AllTraffic/i-00d2d0f88c8b93063
+1613755459495,"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)",AllTraffic/i-00d2d0f88c8b93063
+1613755459495,"Requirement already satisfied, skipping upgrade: pytz>=2011k in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2021.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755459495,"Requirement already satisfied, skipping upgrade: click in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (7.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755459495,"Requirement already satisfied, skipping upgrade: joblib in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (0.14.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755460499,"Requirement already satisfied, skipping upgrade: tqdm in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (4.57.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755460499,"Requirement already satisfied, skipping upgrade: regex in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (2020.11.13)",AllTraffic/i-00d2d0f88c8b93063
+1613755460499,"Requirement already satisfied, skipping upgrade: soupsieve>1.2; python_version >= ""3.0"" in /usr/local/lib/python3.5/dist-packages (from beautifulsoup4->-r requirements.txt (line 4)) (2.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755460499,"Requirement already satisfied, skipping upgrade: webencodings in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (0.5.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755460499,"Requirement already satisfied, skipping upgrade: six>=1.9 in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (1.11.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755460499,"Building wheels for collected packages: predict
+  Running setup.py bdist_wheel for predict: started",AllTraffic/i-00d2d0f88c8b93063
+1613755460499,Successfully installed beautifulsoup4-4.9.3 html5lib-1.1 joblib-0.14.1 nltk-3.5 numpy-1.18.5 pandas-0.24.2 predict-1.0.0 pytz-2021.1 regex-2020.11.13 soupsieve-2.1 tqdm-4.57.0 webencodings-0.5.1,AllTraffic/i-00d2d0f88c8b93063
+1613755460499,"You are using pip version 18.1, however version 20.3.4 is available.",AllTraffic/i-00d2d0f88c8b93063
+1613755460499,"You should consider upgrading via the 'pip install --upgrade pip' command.
+  Running setup.py bdist_wheel for predict: finished with status 'done'
+  Stored in directory: /tmp/pip-ephem-wheel-cache-dpdmbeli/wheels/35/24/16/37574d11bf9bde50616c67372a334f94fa8356bc7164af8ca3",AllTraffic/i-00d2d0f88c8b93063
+1613755460499,Successfully built predict,AllTraffic/i-00d2d0f88c8b93063
+1613755460499,Requirement already up-to-date: pandas in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 1)) (0.24.2),AllTraffic/i-00d2d0f88c8b93063
+1613755461507,"Installing collected packages: pandas, nltk, beautifulsoup4, html5lib, predict
+  Found existing installation: pandas 0.24.2
+    Uninstalling pandas-0.24.2:",AllTraffic/i-00d2d0f88c8b93063
+1613755462508,Loading model.,AllTraffic/i-00d2d0f88c8b93063
+1613755462508,"model_info: {'hidden_dim': 200, 'embedding_dim': 32, 'vocab_size': 5000}",AllTraffic/i-00d2d0f88c8b93063
+1613755462508,Done loading model.,AllTraffic/i-00d2d0f88c8b93063
+1613755462508,"10.32.0.2 - - [19/Feb/2021:17:24:21 +0000] ""GET /ping HTTP/1.1"" 200 0 ""-"" ""AHC/2.0""",AllTraffic/i-00d2d0f88c8b93063
+1613755462508,Requirement already up-to-date: numpy in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 2)) (1.18.5),AllTraffic/i-00d2d0f88c8b93063
+1613755462508,Requirement already up-to-date: nltk in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 3)) (3.5),AllTraffic/i-00d2d0f88c8b93063
+1613755462509,Requirement already up-to-date: beautifulsoup4 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 4)) (4.9.3),AllTraffic/i-00d2d0f88c8b93063
+1613755462509,Requirement already up-to-date: html5lib in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 5)) (1.1),AllTraffic/i-00d2d0f88c8b93063
+1613755462509,"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)",AllTraffic/i-00d2d0f88c8b93063
+1613755462509,"Requirement already satisfied, skipping upgrade: pytz>=2011k in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2021.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755462509,"Requirement already satisfied, skipping upgrade: regex in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (2020.11.13)",AllTraffic/i-00d2d0f88c8b93063
+1613755462509,"Requirement already satisfied, skipping upgrade: click in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (7.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755462509,"Requirement already satisfied, skipping upgrade: joblib in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (0.14.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755462509,"Requirement already satisfied, skipping upgrade: tqdm in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (4.57.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755463510,"Requirement already satisfied, skipping upgrade: soupsieve>1.2; python_version >= ""3.0"" in /usr/local/lib/python3.5/dist-packages (from beautifulsoup4->-r requirements.txt (line 4)) (2.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755463510,"Requirement already satisfied, skipping upgrade: webencodings in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (0.5.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755463510,"Requirement already satisfied, skipping upgrade: six>=1.9 in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (1.11.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755463510,"Building wheels for collected packages: predict
+  Running setup.py bdist_wheel for predict: started
+      Successfully uninstalled pandas-0.24.2
+  Running setup.py bdist_wheel for predict: finished with status 'done'
+  Stored in directory: /tmp/pip-ephem-wheel-cache-8bg6yf9d/wheels/35/24/16/37574d11bf9bde50616c67372a334f94fa8356bc7164af8ca3",AllTraffic/i-00d2d0f88c8b93063
+1613755463510,Successfully built predict,AllTraffic/i-00d2d0f88c8b93063
+1613755463510,"10.32.0.2 - - [19/Feb/2021:17:24:23 +0000] ""GET /ping HTTP/1.1"" 200 0 ""-"" ""AHC/2.0""",AllTraffic/i-00d2d0f88c8b93063
+1613755463510,Installing collected packages: predict,AllTraffic/i-00d2d0f88c8b93063
+1613755463510,Successfully installed predict-1.0.0,AllTraffic/i-00d2d0f88c8b93063
+1613755463510,"You are using pip version 18.1, however version 20.3.4 is available.",AllTraffic/i-00d2d0f88c8b93063
+1613755463510,You should consider upgrading via the 'pip install --upgrade pip' command.,AllTraffic/i-00d2d0f88c8b93063
+1613755463510,[2021-02-19 17:24:23 +0000] [31] [ERROR] Error handling request /ping,AllTraffic/i-00d2d0f88c8b93063
+1613755463511,"Traceback (most recent call last):
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_modules.py"", line 248, in import_module
+    module = importlib.import_module(name)
+  File ""/usr/lib/python3.5/importlib/__init__.py"", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File ""<frozen importlib._bootstrap>"", line 986, in _gcd_import
+  File ""<frozen importlib._bootstrap>"", line 969, in _find_and_load
+  File ""<frozen importlib._bootstrap>"", line 958, in _find_and_load_unlocked
+  File ""<frozen importlib._bootstrap>"", line 673, in _load_unlocked
+  File ""<frozen importlib._bootstrap_external>"", line 665, in exec_module
+  File ""<frozen importlib._bootstrap>"", line 222, in _call_with_frames_removed
+  File ""/usr/local/lib/python3.5/dist-packages/predict.py"", line 7, in <module>
+    import pandas as pd",AllTraffic/i-00d2d0f88c8b93063
+1613755463511,"ImportError: No module named 'pandas'
+",AllTraffic/i-00d2d0f88c8b93063
+1613755463511,"During handling of the above exception, another exception occurred:
+",AllTraffic/i-00d2d0f88c8b93063
+1613755463511,"Traceback (most recent call last):
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/base_async.py"", line 56, in handle
+    self.handle_request(listener_name, req, client, addr)
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/ggevent.py"", line 160, in handle_request
+    addr)
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/base_async.py"", line 107, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_pytorch_container/serving.py"", line 103, in main
+    user_module = modules.import_module(serving_env.module_dir, serving_env.module_name)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_modules.py"", line 253, in import_module
+    six.reraise(_errors.ImportModuleError, _errors.ImportModuleError(e), sys.exc_info()[2])
+  File ""/usr/local/lib/python3.5/dist-packages/six.py"", line 692, in reraise
+    raise value.with_traceback(tb)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_modules.py"", line 248, in import_module
+    module = importlib.import_module(name)
+  File ""/usr/lib/python3.5/importlib/__init__.py"", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File ""<frozen importlib._bootstrap>"", line 986, in _gcd_import
+  File ""<frozen importlib._bootstrap>"", line 969, in _find_and_load
+  File ""<frozen importlib._bootstrap>"", line 958, in _find_and_load_unlocked
+  File ""<frozen importlib._bootstrap>"", line 673, in _load_unlocked
+  File ""<frozen importlib._bootstrap_external>"", line 665, in exec_module
+  File ""<frozen importlib._bootstrap>"", line 222, in _call_with_frames_removed
+  File ""/usr/local/lib/python3.5/dist-packages/predict.py"", line 7, in <module>
+    import pandas as pd",AllTraffic/i-00d2d0f88c8b93063
+1613755463511,sagemaker_containers._errors.ImportModuleError: No module named 'pandas',AllTraffic/i-00d2d0f88c8b93063
+1613755463511,"10.32.0.2 - - [19/Feb/2021:17:24:23 +0000] ""GET /ping HTTP/1.1"" 500 141 ""-"" ""AHC/2.0""",AllTraffic/i-00d2d0f88c8b93063
+1613755464512,"  Running setup.py bdist_wheel for regex: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/27/f6/66/a4243e485a0ebc73dc59033ae26c48e82526f77dbfe158ac59",AllTraffic/i-00d2d0f88c8b93063
+1613755464512,Successfully built predict regex,AllTraffic/i-00d2d0f88c8b93063
+1613755464512,"Could not install packages due to an EnvironmentError: [Errno 2] No such file or directory: '/usr/local/lib/python3.5/dist-packages/numpy-1.15.4.dist-info/METADATA'
+",AllTraffic/i-00d2d0f88c8b93063
+1613755465513,"You are using pip version 18.1, however version 20.3.4 is available.",AllTraffic/i-00d2d0f88c8b93063
+1613755465513,You should consider upgrading via the 'pip install --upgrade pip' command.,AllTraffic/i-00d2d0f88c8b93063
+1613755465513,[2021-02-19 17:24:24 +0000] [31] [ERROR] Error handling request /ping,AllTraffic/i-00d2d0f88c8b93063
+1613755465513,"Traceback (most recent call last):
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/base_async.py"", line 56, in handle
+    self.handle_request(listener_name, req, client, addr)
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/ggevent.py"", line 160, in handle_request
+    addr)
+  File ""/usr/local/lib/python3.5/dist-packages/gunicorn/workers/base_async.py"", line 107, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_pytorch_container/serving.py"", line 103, in main
+    user_module = modules.import_module(serving_env.module_dir, serving_env.module_name)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_modules.py"", line 246, in import_module
+    install(_env.code_dir)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_modules.py"", line 109, in install
+    _process.check_error(shlex.split(cmd), _errors.InstallModuleError, cwd=path, capture_error=capture_error)
+  File ""/usr/local/lib/python3.5/dist-packages/sagemaker_containers/_process.py"", line 43, in check_error
+    raise error_class(return_code=return_code, cmd=' '.join(cmd), output=stderr)",AllTraffic/i-00d2d0f88c8b93063
+1613755465514,sagemaker_containers._errors.InstallModuleError: InstallModuleError:,AllTraffic/i-00d2d0f88c8b93063
+1613755465514,"Command ""/usr/bin/python -m pip install -U . -r requirements.txt""",AllTraffic/i-00d2d0f88c8b93063
+1613755465514,"10.32.0.2 - - [19/Feb/2021:17:24:24 +0000] ""GET /ping HTTP/1.1"" 500 141 ""-"" ""AHC/2.0""",AllTraffic/i-00d2d0f88c8b93063
+1613755466514,Successfully installed beautifulsoup4-4.9.3 html5lib-1.1 joblib-0.14.1 nltk-3.5 pandas-0.24.2 predict-1.0.0 regex-2020.11.13 soupsieve-2.1 tqdm-4.57.0 webencodings-0.5.1,AllTraffic/i-00d2d0f88c8b93063
+1613755466514,"You are using pip version 18.1, however version 20.3.4 is available.",AllTraffic/i-00d2d0f88c8b93063
+1613755466514,You should consider upgrading via the 'pip install --upgrade pip' command.,AllTraffic/i-00d2d0f88c8b93063
+1613755466514,Loading model.,AllTraffic/i-00d2d0f88c8b93063
+1613755466514,"model_info: {'hidden_dim': 200, 'embedding_dim': 32, 'vocab_size': 5000}",AllTraffic/i-00d2d0f88c8b93063
+1613755466515,Done loading model.,AllTraffic/i-00d2d0f88c8b93063
+1613755466515,"10.32.0.2 - - [19/Feb/2021:17:24:26 +0000] ""GET /ping HTTP/1.1"" 200 0 ""-"" ""AHC/2.0""",AllTraffic/i-00d2d0f88c8b93063
+1613755467515,Successfully installed beautifulsoup4-4.9.3 html5lib-1.1 nltk-3.5 pandas-0.24.2 predict-1.0.0,AllTraffic/i-00d2d0f88c8b93063
+1613755468516,"You are using pip version 18.1, however version 20.3.4 is available.",AllTraffic/i-00d2d0f88c8b93063
+1613755468516,You should consider upgrading via the 'pip install --upgrade pip' command.,AllTraffic/i-00d2d0f88c8b93063
+1613755468516,Loading model.,AllTraffic/i-00d2d0f88c8b93063
+1613755468516,"model_info: {'hidden_dim': 200, 'embedding_dim': 32, 'vocab_size': 5000}",AllTraffic/i-00d2d0f88c8b93063
+1613755468516,Done loading model.,AllTraffic/i-00d2d0f88c8b93063
+1613755468516,"10.32.0.2 - - [19/Feb/2021:17:24:27 +0000] ""GET /ping HTTP/1.1"" 200 0 ""-"" ""AHC/2.0""",AllTraffic/i-00d2d0f88c8b93063
+1613755469516,Processing /opt/ml/code,AllTraffic/i-00d2d0f88c8b93063
+1613755469517,Requirement already up-to-date: pandas in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 1)) (0.24.2),AllTraffic/i-00d2d0f88c8b93063
+1613755470517,Requirement already up-to-date: numpy in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 2)) (1.18.5),AllTraffic/i-00d2d0f88c8b93063
+1613755470517,Requirement already up-to-date: nltk in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 3)) (3.5),AllTraffic/i-00d2d0f88c8b93063
+1613755470517,Requirement already up-to-date: beautifulsoup4 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 4)) (4.9.3),AllTraffic/i-00d2d0f88c8b93063
+1613755470517,Requirement already up-to-date: html5lib in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 5)) (1.1),AllTraffic/i-00d2d0f88c8b93063
+1613755470517,"Requirement already satisfied, skipping upgrade: pytz>=2011k in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2021.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755470517,"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)",AllTraffic/i-00d2d0f88c8b93063
+1613755470517,"Requirement already satisfied, skipping upgrade: joblib in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (0.14.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755470517,"Requirement already satisfied, skipping upgrade: tqdm in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (4.57.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755470517,"Requirement already satisfied, skipping upgrade: click in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (7.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755470517,"Requirement already satisfied, skipping upgrade: regex in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (2020.11.13)",AllTraffic/i-00d2d0f88c8b93063
+1613755470517,"Requirement already satisfied, skipping upgrade: soupsieve>1.2; python_version >= ""3.0"" in /usr/local/lib/python3.5/dist-packages (from beautifulsoup4->-r requirements.txt (line 4)) (2.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755470517,"Requirement already satisfied, skipping upgrade: webencodings in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (0.5.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755470518,"Requirement already satisfied, skipping upgrade: six>=1.9 in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (1.11.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755470518,"Building wheels for collected packages: predict
+  Running setup.py bdist_wheel for predict: started
+  Running setup.py bdist_wheel for predict: finished with status 'done'
+  Stored in directory: /tmp/pip-ephem-wheel-cache-fu9qc8rg/wheels/35/24/16/37574d11bf9bde50616c67372a334f94fa8356bc7164af8ca3",AllTraffic/i-00d2d0f88c8b93063
+1613755470518,Successfully built predict,AllTraffic/i-00d2d0f88c8b93063
+1613755470518,"Installing collected packages: predict
+  Found existing installation: predict 1.0.0
+    Uninstalling predict-1.0.0:
+      Successfully uninstalled predict-1.0.0",AllTraffic/i-00d2d0f88c8b93063
+1613755470518,Successfully installed predict-1.0.0,AllTraffic/i-00d2d0f88c8b93063
+1613755470518,"You are using pip version 18.1, however version 20.3.4 is available.",AllTraffic/i-00d2d0f88c8b93063
+1613755470518,You should consider upgrading via the 'pip install --upgrade pip' command.,AllTraffic/i-00d2d0f88c8b93063
+1613755471518,Loading model.,AllTraffic/i-00d2d0f88c8b93063
+1613755471518,"model_info: {'hidden_dim': 200, 'embedding_dim': 32, 'vocab_size': 5000}",AllTraffic/i-00d2d0f88c8b93063
+1613755471518,Done loading model.,AllTraffic/i-00d2d0f88c8b93063
+1613755471519,"10.32.0.2 - - [19/Feb/2021:17:24:30 +0000] ""GET /ping HTTP/1.1"" 200 0 ""-"" ""AHC/2.0""",AllTraffic/i-00d2d0f88c8b93063
+1613755473519,"10.32.0.2 - - [19/Feb/2021:17:24:33 +0000] ""GET /ping HTTP/1.1"" 200 0 ""-"" ""AHC/2.0""",AllTraffic/i-00d2d0f88c8b93063
+1613755478521,"10.32.0.2 - - [19/Feb/2021:17:24:38 +0000] ""GET /ping HTTP/1.1"" 200 0 ""-"" ""AHC/2.0""",AllTraffic/i-00d2d0f88c8b93063
+1613755483522,"10.32.0.2 - - [19/Feb/2021:17:24:43 +0000] ""GET /ping HTTP/1.1"" 200 0 ""-"" ""AHC/2.0""",AllTraffic/i-00d2d0f88c8b93063
+1613755488524,"10.32.0.2 - - [19/Feb/2021:17:24:48 +0000] ""GET /ping HTTP/1.1"" 200 0 ""-"" ""AHC/2.0""",AllTraffic/i-00d2d0f88c8b93063
+1613755493526,"10.32.0.2 - - [19/Feb/2021:17:24:53 +0000] ""GET /ping HTTP/1.1"" 200 0 ""-"" ""AHC/2.0""",AllTraffic/i-00d2d0f88c8b93063
+1613755499528,Processing /opt/ml/code,AllTraffic/i-00d2d0f88c8b93063
+1613755499529,Requirement already up-to-date: pandas in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 1)) (0.24.2),AllTraffic/i-00d2d0f88c8b93063
+1613755500529,Requirement already up-to-date: numpy in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 2)) (1.18.5),AllTraffic/i-00d2d0f88c8b93063
+1613755500529,Requirement already up-to-date: nltk in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 3)) (3.5),AllTraffic/i-00d2d0f88c8b93063
+1613755500529,Requirement already up-to-date: beautifulsoup4 in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 4)) (4.9.3),AllTraffic/i-00d2d0f88c8b93063
+1613755500529,Requirement already up-to-date: html5lib in /usr/local/lib/python3.5/dist-packages (from -r requirements.txt (line 5)) (1.1),AllTraffic/i-00d2d0f88c8b93063
+1613755500529,"Requirement already satisfied, skipping upgrade: python-dateutil>=2.5.0 in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2.7.5)",AllTraffic/i-00d2d0f88c8b93063
+1613755500529,"Requirement already satisfied, skipping upgrade: pytz>=2011k in /usr/local/lib/python3.5/dist-packages (from pandas->-r requirements.txt (line 1)) (2021.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755500529,"Requirement already satisfied, skipping upgrade: tqdm in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (4.57.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755500529,"Requirement already satisfied, skipping upgrade: joblib in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (0.14.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755500529,"Requirement already satisfied, skipping upgrade: click in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (7.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755500529,"Requirement already satisfied, skipping upgrade: regex in /usr/local/lib/python3.5/dist-packages (from nltk->-r requirements.txt (line 3)) (2020.11.13)",AllTraffic/i-00d2d0f88c8b93063
+1613755500529,"Requirement already satisfied, skipping upgrade: soupsieve>1.2; python_version >= ""3.0"" in /usr/local/lib/python3.5/dist-packages (from beautifulsoup4->-r requirements.txt (line 4)) (2.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755500529,"Requirement already satisfied, skipping upgrade: six>=1.9 in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (1.11.0)",AllTraffic/i-00d2d0f88c8b93063
+1613755500529,"Requirement already satisfied, skipping upgrade: webencodings in /usr/local/lib/python3.5/dist-packages (from html5lib->-r requirements.txt (line 5)) (0.5.1)",AllTraffic/i-00d2d0f88c8b93063
+1613755500529,"Building wheels for collected packages: predict
+  Running setup.py bdist_wheel for predict: started
+  Running setup.py bdist_wheel for predict: finished with status 'done'
+  Stored in directory: /tmp/pip-ephem-wheel-cache-59fjot84/wheels/35/24/16/37574d11bf9bde50616c67372a334f94fa8356bc7164af8ca3",AllTraffic/i-00d2d0f88c8b93063
+1613755500529,Successfully built predict,AllTraffic/i-00d2d0f88c8b93063
+1613755500530,"Installing collected packages: predict
+  Found existing installation: predict 1.0.0
+    Uninstalling predict-1.0.0:
+      Successfully uninstalled predict-1.0.0",AllTraffic/i-00d2d0f88c8b93063
